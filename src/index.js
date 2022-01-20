@@ -19,6 +19,6 @@ io.on('connection', (socket) =>{
         socket.emit('server:newnote', note);
     });
     
-})
+})    
 server.listen(3000);
 console.log("Server on port", 3000);
